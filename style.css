@@ -1,0 +1,57 @@
+body{
+    background-color: #083344;
+    height: 100vh;
+    align-items: center;
+    color: black;
+}
+
+a{
+display: block;
+margin: 60px;
+padding: 40px;
+background-color: #059669;
+color: white;
+text-decoration: none;
+border: solid 4px black;
+border-radius: 15px;
+margin-inline: auto;
+width: fit-content;
+font-size: 30px;
+font-family: 'Teachers', serif;
+}
+
+.top{
+   background-color: #064e3b;
+    margin: auto;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+p{
+margin-inline: auto;
+font-weight: bolder;
+font-size: 40px;
+background-color: white;
+width: fit-content;
+padding: 15px;
+border-radius: 10px;
+font-family: 'Montserrat', serif;
+}
+
+a:hover{
+background-color: black;
+color: white;
+transition: 0.6s;
+}
+
+img{
+    width: 270px;
+    height: 270px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    height: 290px;
+}

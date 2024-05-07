@@ -1,0 +1,41 @@
+img{
+    width: 350px;
+    height: 200px;
+}
+body{
+    background-color: #083344;
+}
+.top{
+background-color: #34d399;
+width: 900px;
+margin: auto;
+padding: 15px;
+border-radius: 8px;
+margin-bottom: 20px;
+}
+.lista
+{
+    border-radius: 8px;
+    padding: 15px;
+    margin: auto;
+    width: 900px;
+    background-color: white;
+}
+.voltar{
+    position: sticky;
+    top:0;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: azure;
+    text-decoration: none;
+    color: black;
+    
+}
+img:hover{
+    transition: 0.6s;
+    width: 380px;
+    height: 230px;
+}
+a{
+    text-decoration: none;
+}
