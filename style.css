@@ -7,12 +7,14 @@ body{
     height: 100vh;
     align-items: center;
     color: black;
+    text-align: center;
+    justify-content: center;
 }
 
 a{
-display: block;
-margin: 60px;
+margin: 10px;
 padding: 40px;
+display: block;
 
 color: white;
 text-decoration: none;
@@ -22,6 +24,7 @@ margin-inline: auto;
 width: fit-content;
 font-size: 30px;
 font-family: 'Teachers', serif;
+height: fit-content;
 }
 
 .top{
@@ -35,10 +38,8 @@ font-family: 'Teachers', serif;
 
 p{
 margin-inline: auto;
-font-weight: bolder;
+font-weight: 400;
 font-size: 40px;
-
-width: fit-content;
 padding: 15px;
 border-radius: 10px;
 font-family: 'Montserrat', serif;
@@ -57,5 +58,7 @@ img{
 .card{
     display: flex;
     flex-direction: row;
-    height: 290px;
+    height: 140px;
+    padding-bottom: 20px ;
 }
+
