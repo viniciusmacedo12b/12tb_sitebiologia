@@ -10,7 +10,7 @@ p.setAttribute('class', 'conteudoanimation');
 const h1 = document.querySelector('.top');
 h1.setAttribute('class', 'conteudoanimation');
 setTimeout(function() {
-    window.location.replace("http://127.0.0.1:5500/animaisT.html");
+    window.location.replace("animaisT.html");
   }, 1500);
 }
 function transitionanimaisT()
@@ -24,7 +24,7 @@ function transitionanimaisT()
     const h1a = document.querySelector('.top');
     h1a.setAttribute('class', 'conteudoanimation');
     setTimeout(function() {
-        window.location.replace("http://127.0.0.1:5500/taticas.html") }, 1500);
+        window.location.replace("taticas.html") }, 1500);
 }
 function transitionanimaisTvoltar()
 {
@@ -37,5 +37,5 @@ function transitionanimaisTvoltar()
     const h1v = document.querySelector('.top');
     h1v.setAttribute('class', 'conteudoanimation');
     setTimeout(function() {
-        window.location.replace("http://127.0.0.1:5500/index.html") }, 1500);
+        window.location.replace("index.html") }, 1500);
 }
