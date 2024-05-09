@@ -7,7 +7,7 @@ body{
 }
 .top{
 background-color: #34d399;
-width: 900px;
+width: 100%;
 margin: auto;
 padding: 15px;
 border-radius: 8px;
@@ -15,11 +15,12 @@ margin-bottom: 20px;
 }
 .lista
 {
+    width: 100%;
     border-radius: 8px;
     padding: 15px;
     margin: auto;
-    width: 900px;
     background-color: white;
+    max-width: max-content;
 }
 .voltar{
     position: sticky;
@@ -31,11 +32,9 @@ margin-bottom: 20px;
     color: black;
     
 }
-img:hover{
-    transition: 0.6s;
-    width: 380px;
-    height: 230px;
-}
 a{
     text-decoration: none;
+}
+img:hover{
+    border: solid 2px black;
 }
