@@ -16,13 +16,6 @@ img{
     border: solid 2px black;
     margin-block: 10px;
 }
-a{
-    padding: 10px;
-    border-radius: 2px;
-    background-color: azure;
-    text-decoration: none;
-    color: black;
-}
 p{
     font-family: 'Montserrat', serif;
 }
@@ -31,5 +24,15 @@ p{
 }
 .voltar{
     position: sticky;
-    top:0
+    top:0;
+    padding:10px;
+    border-radius: 2px;
+    background-color: azure;
+    text-decoration: none;
+    color: black;
+}
+a{
+    display: block;
+    margin-bottom: 10px;
+    width: fit-content;
 }

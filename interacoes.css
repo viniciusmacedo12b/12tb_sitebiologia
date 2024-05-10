@@ -4,14 +4,18 @@ img{
 }
 body{
     background-color: #083344;
+    font-size: 30px;
+}
+h1{
+    margin-inline: auto;
 }
 .top{
-background-color: #34d399;
 width: 100%;
 margin: auto;
 padding: 15px;
-border-radius: 8px;
 margin-bottom: 20px;
+display: contents;
+text-align:center;
 }
 .lista
 {
