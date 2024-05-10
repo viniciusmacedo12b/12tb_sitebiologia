@@ -35,4 +35,13 @@ a{
     display: block;
     margin-bottom: 10px;
     width: fit-content;
+    text-decoration: none;
+    transition: 1s;
+}
+
+table, th, td{
+    border: solid 1px black;
+    width: 100%;
+    font-size: 25px;
+    border-collapse: collapse;
 }
