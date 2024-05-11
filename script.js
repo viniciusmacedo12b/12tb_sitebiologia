@@ -13,6 +13,20 @@ setTimeout(function() {
     window.location.replace("animaisT.html");
   }, 1500);
 }
+function transitionindexquiz()
+{
+const transition = document.querySelector('.transition');
+transition.setAttribute('class', 'animation');
+const button = document.querySelector('.card');
+button.setAttribute('class', 'conteudoanimation');
+const p = document.querySelector('.paragrafo');
+p.setAttribute('class', 'conteudoanimation');
+const h1 = document.querySelector('.top');
+h1.setAttribute('class', 'conteudoanimation');
+setTimeout(function() {
+    window.location.replace("quiz.html");
+  }, 1500);
+}
 function transitionanimaisT()
 {
     const transitiona = document.querySelector('.transition');
